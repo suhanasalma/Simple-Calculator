@@ -69,6 +69,7 @@ input{
    border-radius: 30px;
    background-color: #ecf0f3;
    box-sizing: border-box;
+   height: 650px;
 }
 
 .button-container{
