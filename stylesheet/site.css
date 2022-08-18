@@ -110,8 +110,8 @@ input{
 @media screen and (max-width:870px) {
    
    .calculator-container{
-   top: 45%;
-   left: 50%;
+   /* top: 45%;
+   left: 50%; */
    height: 550px;
    }
 
