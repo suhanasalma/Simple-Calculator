@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body{
+   font-family: 'Cabin', sans-serif;
+
+
+}
+/* *{
+   outline: none;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   background-color: #ecf0f3;
+}
+
+
+.calculator-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #ecf0f0;
+   padding: 15px;
+   border-radius: 30px;
+}
+
+input{
+   border: 1px solid green;
+   padding: 20px;
+   text-align: right;
+   font-size: 2rem;
+   font-weight: bold;
+   
+   
+   
+}
+
+.button-container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+}
+
+.button-container > *{
+   padding: 20px;
+   font-size: 1.5rem;
+   font-weight: bold;
+   border: 1px solid rgba(210, 206, 206, 0.378);
+}
+
+#equal{
+   background-color: #5555ff;
+   color: white;
+} */
+
+/* .calc{
+   background-color:#ecf0f3 ;
+} */
+#calculator{
+   text-align: center;
+   margin-bottom: 4rem;
+}
+.calculator-container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   box-shadow: inset 5px 5px 12px #ffffff,
+               5px 5px 12px rgba(0, 0, 0, 0.16);
+   padding: 30px;
+   border-radius: 30px;
+   background-color: #ecf0f3;
+   box-sizing: border-box;
+}
+
+.button-container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+}
+
+.button-container >*{
+   padding: 20px;
+   border: none;
+   border-radius: 40px;
+   box-shadow: inset 5px 5px 12px #ffffff,
+               5px 5px 12px rgba(0, 0, 0, 0.16);
+   margin: 8px;   
+   font-size: 2rem;
+   background-color: #ecf0f3;
+}
+
+input{
+   width: 100%;
+   border-radius: 30px;
+   border: none;
+   box-shadow: inset 5px 5px 12px #ffffff,
+               inset 5px 5px 12px rgba(0, 0, 0, 0.347);
+   height: 6rem;
+   margin-bottom: 10px;
+   background-color: #ecf0f3;
+   text-align: right;
+   font-size: 2rem;
+
+
+}
+
+::placeholder{
+   padding: 10px;
+}
+
+@media screen and (max-width:870px) {
+   
+   .calculator-container{
+   top: 50%;
+   left: 50%;
+   height: 70vh;
+   }
+
+   .button-container{
+      margin-top: 50px;
+   }
+
+   .button-container >*{
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      padding: 10px;
+   }
+}
