@@ -109,11 +109,12 @@ input{
 
 @media screen and (max-width:870px) {
    
+   .#calculator{
+      margin-bottom: 50px;
+   }
    .calculator-container{
-   /* top: 45%;
-   left: 50%; */
    height: 550px;
-   margin-top: 50px;
+   
    }
 
    .button-container{
