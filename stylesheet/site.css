@@ -112,7 +112,7 @@ input{
    .calculator-container{
    top: 50%;
    left: 50%;
-   height: fit-content;
+   height: 550px;
    }
 
    .button-container{
